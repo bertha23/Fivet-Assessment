@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+:root{
+    --mainColour: #425F57;
+    --mainColourLight: #749F82;
+    --secondaryColour: #FFF7E9;
+    --textColour: #000;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColour);
+    color:var(--textColour);
+}
+
+nav a{
+    margin: 0 2rem;
+    color: var(--textColour);
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+}
+nav a:hover{
+    color: var(--secondaryColour);
+}
+
+#item1pg1{
+    
+    border: ridge;
+    background-color: #F94C66;
+    padding: 10px;
+    font-Family: Sans-Serif;
+    font-Weight: bold
+  
+}
+
+#item2pg1 {
+    
+    border: ridge;
+    background-color: #5C2E7E;
+    padding: 10px;
+    font-Family: Sans-Serif;
+    font-Weight: bold
+  
+}
+#item3pg1 {
+    
+    border: ridge;
+    background-color: #18978F;
+    padding: 10px;
+    font-Family: Sans-Serif;
+    font-Weight: bold
+  
+}
+
+#item1pg2 {
+    
+    border: groove;
+    background-color: #F6C6EA;
+    padding: 10px;
+    font-family: Roboto;
+    font-weight: bold
+  
+}
+
+#item2pg2 {
+
+border: groove;
+background-Color: #B7E5DD;
+padding: 10px;
+font-Family: Roboto;
+font-Weight: bold
+
+}
+
+#item3pg2 {
+
+border: groove;
+background-color: #B8F1B0;
+padding: 10px;
+font-family: Roboto;
+font-weight: bold
+
+}
